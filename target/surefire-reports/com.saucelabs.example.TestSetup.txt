@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.saucelabs.example.TestSetup
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.41 sec <<< FAILURE!
+StanFAndroidppiumDemo(com.saucelabs.example.TestSetup)  Time elapsed: 0.04 sec  <<< FAILURE!
+java.net.MalformedURLException
+	at java.net.URL.<init>(URL.java:634)
+	at java.net.URL.<init>(URL.java:497)
+	at java.net.URL.<init>(URL.java:446)
+	at com.saucelabs.example.TestSetup.createDriver(TestSetup.java:69)
+	at com.saucelabs.example.TestSetup.StanFAndroidppiumDemo(TestSetup.java:78)
+Caused by: java.lang.NullPointerException
+	at java.net.URL.<init>(URL.java:539)
+	... 19 more
+
+StanFAndroidppiumDemo(com.saucelabs.example.TestSetup)  Time elapsed: 0.041 sec  <<< FAILURE!
+java.net.MalformedURLException
+	at java.net.URL.<init>(URL.java:634)
+	at java.net.URL.<init>(URL.java:497)
+	at java.net.URL.<init>(URL.java:446)
+	at com.saucelabs.example.TestSetup.createDriver(TestSetup.java:69)
+	at com.saucelabs.example.TestSetup.StanFAndroidppiumDemo(TestSetup.java:78)
+Caused by: java.lang.NullPointerException
+	at java.net.URL.<init>(URL.java:539)
+	... 19 more
+
+tearDown(com.saucelabs.example.TestSetup)  Time elapsed: 0.166 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saucelabs.example.TestSetup.tearDown(TestSetup.java:116)
+
+tearDown(com.saucelabs.example.TestSetup)  Time elapsed: 0.166 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.saucelabs.example.TestSetup.tearDown(TestSetup.java:116)
+
